@@ -2,7 +2,7 @@ const rem = (px) => `${px / 16}rem`;
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{html,js}'],
+	purge: ['./src/**/*.{html,js}'],
 	theme: {
 		fontFamily: {
 			body: ['Montserrat', 'serif'],
